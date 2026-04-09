@@ -1,6 +1,7 @@
 from config.db import db
 from datetime import datetime
 
+
 class Hortaliza(db.Model):
     __tablename__ = 'hortalizas'
     
